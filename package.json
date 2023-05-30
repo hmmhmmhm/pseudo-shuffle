@@ -13,14 +13,28 @@
   "unpkg": "./dist/psuedo-shuffle.umd.js",
   "scripts": {
     "build": "microbundle",
-    "dev": "microbundle && node ./dist/psuedo-shuffle.cjs",
     "test": "microbundle && jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hmmhmmhm/psuedo-shuffle.git"
   },
-  "keywords": [],
+  "keywords": [
+    "shuffle",
+    "shuffle-algorithms",
+    "fpe",
+    "format-preserving-encryption",
+    "ems",
+    "cjs",
+    "umd",
+    "esm",
+    "es",
+    "module",
+    "typescript",
+    "ts",
+    "javascript",
+    "js"
+  ],
   "author": "hmmhmmhm",
   "license": "MIT",
   "bugs": {
