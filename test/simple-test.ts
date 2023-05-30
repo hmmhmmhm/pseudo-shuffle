@@ -1,3 +1,4 @@
+// @ts-ignore
 import { encode, decode } from "pseudo-shuffle";
 
 describe("pseudo-shuffle", () => {

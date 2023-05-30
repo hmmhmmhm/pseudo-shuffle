@@ -7,6 +7,9 @@
       "node",
       "jest"
     ],
-    "rootDir": "."
-  }
+    "rootDir": "./src",
+  },
+  "exclude": [
+    "test"
+  ]
 }

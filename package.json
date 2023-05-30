@@ -1,6 +1,6 @@
 {
   "name": "pseudo-shuffle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Make the index look like it is shuffled according to the range so that it is not conflicted without the actual shuffle.",
   "type": "module",
   "source": "src/pseudo-shuffle.ts",
@@ -11,6 +11,7 @@
   "main": "./dist/pseudo-shuffle.cjs",
   "module": "./dist/pseudo-shuffle.module.js",
   "unpkg": "./dist/pseudo-shuffle.umd.js",
+  "types": "./dist/pseudo-shuffle.d.ts",
   "scripts": {
     "build": "microbundle",
     "test": "microbundle && jest"
