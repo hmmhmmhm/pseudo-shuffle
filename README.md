@@ -1,6 +1,6 @@
-# 🔀 Psuedo-shuffle
+# 🔀 pseudo-shuffle
 
-[![Actual Image](https://i.imgur.com/I22RCg0.png)](https://i.imgur.com/I22RCg0.png)
+[![Actual Image](https://i.imgur.com/w1Iz3h1.png)](https://i.imgur.com/w1Iz3h1.png)
 
 > 📜 Make the index look like it is shuffled according to the range so that it is not conflicted without the actual shuffle.
 
@@ -11,13 +11,13 @@
 ### 1. Install
 
 ```bash
-npm install psuedo-shuffle
+npm install pseudo-shuffle
 ```
 
 ### 2. **Basic Encode - Decode Example**
 
 ```ts
-import { encode, decode } from "psuedo-shuffle";
+import { encode, decode } from "pseudo-shuffle";
 
 const encoded = encode({
   min: 0,
@@ -39,7 +39,7 @@ console.log(`decoded:`, decoded);
 ### 3. **7 Length Base 36 Shuffle Example**
 
 ```ts
-import { encode, decode } from "psuedo-shuffle";
+import { encode, decode } from "pseudo-shuffle";
 
 const privateKey = "something-secret-any-string-like-this!";
 
@@ -64,7 +64,7 @@ console.log(`decoded:`, decoded);
 
 ## ⚠️ Caution
 
-1. `psuedo-shuffle` is psuedo random, not truly random. As a result, the library can encode or decode the shuffled sequence on the fly without having to remember all the shuffled values.
+1. `pseudo-shuffle` is pseudo random, not truly random. As a result, the library can encode or decode the shuffled sequence on the fly without having to remember all the shuffled values.
 2. Algorithm can be applied only when the difference between the min and max values is at least 4. In this case, it doesn't throw an error, it just doesn't apply the shuffle.
 3. The private and public keys are set to their defaults. If you want more security, set the privateKey.
 4. This library was developed to make it easier to use the [node-fe1-fpe](https://github.com/eCollect/node-fe1-fpe) library without a lot of exception handling, and the real genius is the person who wrote it.

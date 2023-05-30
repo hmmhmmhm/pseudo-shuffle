@@ -1,6 +1,6 @@
-import { encode, decode } from "psuedo-shuffle";
+import { encode, decode } from "pseudo-shuffle";
 
-describe("psuedo-shuffle", () => {
+describe("pseudo-shuffle", () => {
   it("Should be same value (-8 ~ 102)", () => {
     for (let index = -8; index <= 102; index++) {
       const encoded = encode({

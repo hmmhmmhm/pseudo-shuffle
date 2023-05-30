@@ -1,23 +1,23 @@
 {
-  "name": "psuedo-shuffle",
+  "name": "pseudo-shuffle",
   "version": "0.0.1",
   "description": "Make the index look like it is shuffled according to the range so that it is not conflicted without the actual shuffle.",
   "type": "module",
-  "source": "src/psuedo-shuffle.ts",
+  "source": "src/pseudo-shuffle.ts",
   "exports": {
-    "require": "./dist/psuedo-shuffle.cjs",
-    "default": "./dist/psuedo-shuffle.modern.js"
+    "require": "./dist/pseudo-shuffle.cjs",
+    "default": "./dist/pseudo-shuffle.modern.js"
   },
-  "main": "./dist/psuedo-shuffle.cjs",
-  "module": "./dist/psuedo-shuffle.module.js",
-  "unpkg": "./dist/psuedo-shuffle.umd.js",
+  "main": "./dist/pseudo-shuffle.cjs",
+  "module": "./dist/pseudo-shuffle.module.js",
+  "unpkg": "./dist/pseudo-shuffle.umd.js",
   "scripts": {
     "build": "microbundle",
     "test": "microbundle && jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hmmhmmhm/psuedo-shuffle.git"
+    "url": "git+https://github.com/hmmhmmhm/pseudo-shuffle.git"
   },
   "keywords": [
     "shuffle",
@@ -38,9 +38,9 @@
   "author": "hmmhmmhm",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hmmhmmhm/psuedo-shuffle/issues"
+    "url": "https://github.com/hmmhmmhm/pseudo-shuffle/issues"
   },
-  "homepage": "https://github.com/hmmhmmhm/psuedo-shuffle#readme",
+  "homepage": "https://github.com/hmmhmmhm/pseudo-shuffle#readme",
   "dependencies": {
     "node-fe1-fpe": "^1.0.0-beta.2"
   },
